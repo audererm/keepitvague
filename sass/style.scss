@@ -1,0 +1,51 @@
+$navbarheight: 120px;
+
+.brand-logo img {
+	height: $navbarheight;
+}
+
+nav {
+	height: $navbarheight;
+	background-color: #000;
+	display: table;
+	padding: 0 24px;
+
+	li a {
+		height: $navbarheight;
+		display: table-cell;
+		vertical-align: middle;
+		width: 80px;
+		text-align: center;
+		font-family: Montserrat;
+
+		&:hover {
+			background-color: #ea32c8;
+		}
+	}
+
+	.cart {
+		width: 110px;
+
+		i {
+			margin: 0;
+		}
+	}
+}
+
+.container {
+	width: 90%;
+}
+
+.content {
+	height: 800px;
+	//background-image: url('../bg.png');
+	background-color: #222;
+}
+
+.logo {
+	img {
+		width: 60%;
+		display: block;
+		margin: auto;
+	}
+}

@@ -1,0 +1,35 @@
+.brand-logo img {
+  height: 120px; }
+
+nav {
+  height: 120px;
+  background-color: #000;
+  display: table;
+  padding: 0 24px; }
+  nav li a {
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 80px;
+    text-align: center;
+    font-family: Montserrat; }
+    nav li a:hover {
+      background-color: #ea32c8; }
+  nav .cart {
+    width: 110px; }
+    nav .cart i {
+      margin: 0; }
+
+.container {
+  width: 90%; }
+
+.content {
+  height: 800px;
+  background-color: #222; }
+
+.logo img {
+  width: 60%;
+  display: block;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
